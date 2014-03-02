@@ -20,7 +20,9 @@ fetch: You can cURL, xhtml, ajax or whatever the page. Putting true removes the 
 
 You can embed the script into an iframe on your website.
 
+<code>
 \<iframe src="http://srv2.pdevita.net/colors.php?id=123456"><\iframe\>
+</code>
 
 2) fetch mode
 
@@ -28,8 +30,11 @@ You can also insert it into the middle of your page.
 
 <code>
 <?php
+
   $data = file_get_contents('http://srv.pdevita.net/colors.php?id=123456&fetch=true');
+  
   echo $data;
+  
 ?>
 </code>
 
