@@ -26,12 +26,12 @@ You can embed the script into an iframe on your website.
 
 You can also insert it into the middle of your page.
 
-<php>
+<code>
 <?php
   $data = file_get_contents('http://srv.pdevita.net/colors.php?id=123456&fetch=true');
   echo $data;
 ?>
-</php>
+</code>
 
 
 Thanks and Enjoy!
