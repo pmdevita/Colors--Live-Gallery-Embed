@@ -20,7 +20,7 @@ fetch: You can cURL, xhtml, ajax or whatever the page. Putting true removes the 
 
 You can embed the script into an iframe on your website.
 
-\<iframe src="http://srv2.pdevita.net/colors.php?id=123456"></iframe \>
+\<iframe src="http://srv2.pdevita.net/colors.php?id=123456"><//iframe \>
 
 2) fetch mode
 
