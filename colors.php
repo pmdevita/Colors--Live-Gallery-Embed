@@ -32,8 +32,9 @@ echo "</head>
 <body>";
 }
 
-//Catch stray javascript functions
-echo "<script>
+//Links open new tab and catch stray javascript functions
+echo "<base target='_blank'>
+<script>
 function mouseOverGallery(a) {
 return true;
 }
