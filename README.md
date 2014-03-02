@@ -14,7 +14,7 @@ id: this is your user ID. It can be found in the URL when you navigate to your g
 
 background: If you want the Colors! Live background in the iframe
 
-fetch: You can cURL, xhtml, ajax or whatever the page. Putting true removes the <head> and <body> tags.
+fetch: You can cURL, xhtml, ajax or whatever the page. Putting true removes the "<head>" and "<body>" tags.
 
 1) iframe mode
 
