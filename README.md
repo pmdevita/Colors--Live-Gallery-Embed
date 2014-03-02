@@ -11,7 +11,9 @@ The URL has three options
 srv2.pdevita.net/colors.php?id=123456&background=false&fetch=false
 
 id: this is your user ID. It can be found in the URL when you navigate to your gallery on the Colors! Live website. It is required (obviously).
+
 background: If you want the Colors! Live background in the iframe
+
 fetch: You can cURL, xhtml, ajax or whatever the page. Putting true removes the <head> and <body> tags
 
 1) iframe mode
